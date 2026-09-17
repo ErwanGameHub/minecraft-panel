@@ -23,7 +23,7 @@ The installer prints the generated panel username and password when it finishes.
 Point your domain DNS `A` record to the VPS public IP first, then run:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ErwanGameHub/minecraft-panel/refs/heads/main/install.sh | sudo PANEL_DOMAIN=your-domain.com PANEL_EMAIL=you@example.com bash
+curl -fsSL https://raw.githubusercontent.com/ErwanGameHub/minecraft-panel/refs/heads/main/install.sh | sudo PANEL_DOMAIN=kingtech-erwan.fun PANEL_EMAIL=kingtech-erwan@gmail.com bash
 ```
 
 After installation, open:
@@ -37,7 +37,7 @@ https://your-domain.com
 Use this only if you want HTTPS directly on the VPS public IP:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ErwanGameHub/minecraft-panel/refs/heads/main/install.sh | sudo PANEL_IP_HTTPS=1 PANEL_EMAIL=you@example.com bash
+curl -fsSL https://raw.githubusercontent.com/ErwanGameHub/minecraft-panel/refs/heads/main/install.sh | sudo PANEL_IP_HTTPS=1 PANEL_EMAIL=kingtech-erwan@gmail.com bash
 ```
 
 After installation, open:
